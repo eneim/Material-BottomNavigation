@@ -155,6 +155,7 @@ public final class MiscUtils {
 
             Animator currentAnimator = (Animator) backgroundOverlay.getTag(R.id.bbn_backgroundOverlay_animator);
             if (null != currentAnimator) {
+                currentAnimator.end();
                 currentAnimator.cancel();
             }
 

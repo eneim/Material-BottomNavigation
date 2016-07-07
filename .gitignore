@@ -30,3 +30,7 @@ proguard/
 
 # Android Studio captures folder
 captures/
+/Material-BottomNavigation.iml
+/.idea/
+/bottom-navigation/bottom-navigation.iml
+/app/app.iml
